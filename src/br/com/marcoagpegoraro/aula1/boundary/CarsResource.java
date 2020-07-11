@@ -2,6 +2,9 @@ package br.com.marcoagpegoraro.aula1.boundary;
 
 import br.com.marcoagpegoraro.aula1.entity.Car;
 
+import javax.ejb.EJB;
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,7 +16,7 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 public class CarsResource {
 
-    @Inject
+    @EJB
     CarManufacturer carManufacturer;
 
     @GET

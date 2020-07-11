@@ -1,9 +1,10 @@
 br/com/marcoagpegoraro/aula1/entity/Color.class
-br/com/marcoagpegoraro/aula1/entity/Car.class
 br/com/marcoagpegoraro/aula1/boundary/CarManufacturer.class
 br/com/marcoagpegoraro/aula1/control/CarRepository.class
-br/com/marcoagpegoraro/aula1/entity/CarCreated.class
 br/com/marcoagpegoraro/aula1/entity/Specification.class
+br/com/marcoagpegoraro/aula1/entity/Car.class
+br/com/marcoagpegoraro/aula1/JAXRSConfiguration.class
+br/com/marcoagpegoraro/aula1/entity/CarCreated.class
 br/com/marcoagpegoraro/aula1/control/CarCreationListener.class
 br/com/marcoagpegoraro/aula1/control/CarFactory.class
 br/com/marcoagpegoraro/aula1/entity/EngineType.class

@@ -15,6 +15,6 @@ public class CarRepository {
 
     @Transactional
     public List<Car> loadCars(){
-        return new ArrayList<Car>();
+        return new ArrayList<Car>() {{add(new Car());}};
     }
 }
